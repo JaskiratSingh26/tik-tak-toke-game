@@ -1,0 +1,87 @@
+section{
+  position:relative;
+  width: max-content;
+  padding: 3vh;
+  margin: auto;
+   border: 1vh solid rgb(52, 52, 52);
+}
+.conatiner{
+    display: grid;
+  
+    grid-template-columns: repeat(3,1fr);
+  
+ 
+}
+.item{
+    border: 2px solid black;
+margin: 1vh 1vh 1vh 1vh; 
+    width: 23vh;
+    height: 23vh;
+  
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+}
+h2{
+    font-size: 20vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+option{
+    font-size: 3vh;
+}
+
+select{
+    width: 5vh;
+    height: 3vh;
+    font-size: larger;
+}
+.cover{
+    text-align: center;
+    margin-top: 2vh;
+}
+.cover input{
+    width: 7vh;
+    
+    border: 2px solid black;
+   padding: 7ox;
+
+}
+
+.cover button{
+    width: max-content;
+    
+    border: 2px solid black;
+   padding: 7ox;
+
+}
+
+h3{
+    text-align: center;
+}
+.cover select{
+     width: 5vh; background-color: aqua;
+     height: max-content;
+}
+#final_result{
+    text-align: center;
+  align-items: center;
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid black;
+  font-size: larger;
+  justify-content: center;
+  display: flex;
+    margin: auto;
+}
+
+#final_result:hover{
+ color: whitesmoke;
+ background-color: black;
+ border: 3px solid whitesmoke;
+}
